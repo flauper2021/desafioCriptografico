@@ -1,0 +1,108 @@
+:root{
+    --base-color:#0A3871;
+}
+
+*{
+    background: #E5E5E5;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+    resize: none;    
+}
+
+.logo{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 2%;
+}
+
+.main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border:none;
+    color:var(--base-color);
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{color:var(--base-color);}
+    .text-area:focus {
+        outline: none;
+        
+    }
+
+.informacao{
+    display: flex;
+    margin-top: 120px;
+}
+
+.informacao > h6 {    
+    color: var(--base-color);
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.botoes{
+    display: flex;
+    margin-top:18px;
+}
+
+.btn-criptografar{
+    background: var(--base-color);
+    border: 1px solid var(--base-color);
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-descriptografar{
+    background: #E5E5E5;
+    border: 1px solid var(--base-color);
+    border-radius: 24px;
+    color: var(--base-color);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 30px;
+}
+
+.mensage{    
+    background:white;
+    background-image: url(./image/boy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border:none;
+    border-radius: 24px;
+    color: var(--base-color);
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position:absolute;    
+}
+
+.mensage:focus{
+    outline: none;
+}
+
+.btn-copiar{
+    background: #E5E5E5;
+    border: 1px solid var(--base-color);
+    border-radius: 24px;
+    color: var(--base-color);
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    margin-left: 118px;
+    margin-top:502px;
+    position:absolute;
+}
+
